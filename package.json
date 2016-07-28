@@ -1,0 +1,17 @@
+{
+  "name": "workbook",
+  "version": "1.0.0",
+  "description": "My IT Journey",
+  "main": "index.js",
+  "engines": {
+    "node": "4.4.4"
+  },
+  "scripts": {
+     "postinstall": "./node_modules/bower/bin/bower install"
+  },  
+  "author": "Padamara Nagendra",
+  "dependencies": {
+    "bower": "^1.7.9",
+    "express": "^4.14.0"
+  }
+}

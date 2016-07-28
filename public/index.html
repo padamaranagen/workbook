@@ -1,0 +1,62 @@
+﻿<!DOCTYPE html>
+<!--[if lt IE 7]>
+<html class="no-js lt-ie9 lt-ie8 lt-ie7"> <![endif]-->
+<!--[if IE 7]>
+<html class="no-js lt-ie9 lt-ie8"> <![endif]-->
+<!--[if IE 8]>
+<html class="no-js lt-ie9"> <![endif]-->
+<!--[if gt IE 8]><!-->
+<html class="no-js">
+ <!--<![endif]-->
+<head>
+
+    <!-- Meta-Information -->
+    <title>Workbook</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Vendor: Bootstrap Stylesheets  -->
+    <link href="bower_components/bootstrap/dist/css/bootstrap.min.css" rel="stylesheet" />
+    <link href="bower_components/bootstrap/dist/css/bootstrap-theme.min.css" rel="stylesheet" />
+    <link href="bower_components/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+
+    <!-- Our Website CSS Styles -->   
+    <link href="assets/css/main.css" rel="stylesheet" />  
+    <link href="assets/css/pdf/style.css" rel="stylesheet" />
+
+</head>
+<body ng-app="wowApp">
+    <!--[if lt IE 7]>
+    <p class="browsehappy">You are using an <strong>outdated</strong> browser. Please <a href="http://browsehappy.com/">upgrade
+        your browser</a> to improve your experience.</p>
+    <![endif]-->
+    <!-- Our Website Content Goes Here -->
+    <div ng-include='"views/layout/header.html"'></div>
+    <div ng-view></div>
+    <div ng-include='"views/layout/footer.html"'></div>
+    
+
+    <!-- Vendor: Javascripts -->
+
+    <script src="bower_components/jquery/dist/jquery.min.js"></script>
+    <script src="bower_components/bootstrap/dist/js/bootstrap.min.js"></script>
+   
+
+    <!-- Vendor: Angular, followed by our custom Javascripts -->
+    <script src="bower_components/pdfjs-dist/build/pdf.js"></script>
+    <script src="bower_components/angular/angular.min.js"></script>
+    <script src="bower_components/angular-route/angular-route.min.js"></script>
+    <script src="bower_components/angular-pdf/dist/angular-pdf.js"></script> 
+    <!-- Our Website Javascripts -->  
+   
+   
+    <script src="app/app.js"></script>
+    <script src="app/question-bank/questionBankCtrl.js"></script>    
+   
+   
+    <!--<script src="js/qlik-sense/qlik-sense.js"></script>-->
+
+</body>
+</html>

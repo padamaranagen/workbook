@@ -1,0 +1,248 @@
+/* 
+Custom CSS for...
+'Modern Business' HTML Theme by Start Bootstrap
+
+All Start Bootstrap themes are licensed under Apache 2.0. 
+For more info and more free Bootstrap 3 HTML themes, visit http://startbootstrap.com!
+*/
+
+/* Global Styles */
+
+html, body {
+    height: 100%;
+}
+
+body {
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.dropdown {
+    cursor:pointer;
+}
+
+
+.img-home-portfolio,
+.img-customer,
+.portfolio-item {
+    margin-bottom: 30px;
+}
+
+.tab-pane {
+    margin-top: 15px;
+}
+
+/* Page Sections */
+.section,
+.section-colored {
+    padding: 50px 0;
+}
+
+.section-colored {
+    background-color: #e1e1e1;
+    /* change this to change the background color of a colored section */
+}
+
+.sidebar {
+    margin-top: 40px;
+}
+
+.sidebar ul {
+    border-radius: 5px;
+    padding: 5px;
+    border: 1px solid #cccccc;
+}
+
+/* Half Page Height Carousel Customization */
+.carousel {
+    height: 50%;
+}
+
+.item,
+.active,
+.carousel-inner {
+    height: 100%;
+}
+
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    background-size: cover;
+}
+
+/* Social Icons Styles */
+.list-social-icons {
+    margin-bottom: 45px;
+}
+
+.tooltip-social a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.facebook-link a:hover {
+    color: #3b5998;
+}
+
+.linkedin-link a:hover {
+    color: #007fb1;
+}
+
+.twitter-link a:hover {
+    color: #39a9e0;
+}
+
+.google-plus-link a:hover {
+    color: #d14836;
+}
+
+/* Service Page Styles */
+.service-icon {
+    font-size: 50px;
+}
+
+/* 404 Page Styles */
+.error-404 {
+    font-size: 8em;
+}
+
+/* Pricing Page Styles */
+.price {
+    font-size: 4em;
+}
+
+.price-cents {
+    vertical-align: super;
+    font-size: 50%;
+}
+
+.price-month {
+    font-size: 35%;
+    font-style: italic;
+}
+
+/* Footer Styles */
+footer {
+    margin: 50px 0;
+}
+
+/* Responsive Styles */
+@media (max-width: 767px) {
+
+    .carousel {
+        height: 70%;
+        /* increases the carousel height so it looks good on phones */
+    }
+}
+
+
+
+/*ribbion*/
+.ribbon {
+      position: absolute;
+    top: -20px;
+    right: -5px;
+    padding: 15px;
+}
+.ribbon-content{
+    position: relative; 
+    width: 100%; 
+    height: 100px; 
+    background: #f1f1f1; 
+    border: 1px solid #DDD;    
+}
+.ribbon.base {
+    background: #3498db;
+    color: #fff;
+    border-right: 5px solid #8bc4ea;
+}
+.ribbon.light {
+    background: #ecf0f1;
+    color: #2c3e50;
+    border-right: 5px solid #dde4e6;
+}
+.ribbon.dark {
+    background: #131313;
+    color: #fff;
+    border-right: 5px solid #464646;
+}
+.ribbon.base-alt {
+    background: #9cd70e;
+    color: #fff;
+    border-right: 5px solid #c6f457;
+}
+.ribbon.red {
+    background: #e91b23;
+    color: #fff;
+    border-right: 5px solid #f2787d;
+}
+.ribbon.orange {
+    background: #ff8a3c;
+    color: #fff;
+    border-right: 5px solid #ffc7a2;
+}
+.ribbon.yellow {
+    background: #ffd800;
+    color: #fff;
+    border-right: 5px solid #ffe866;
+}
+.ribbon:before, .ribbon:after {
+    content: '';
+    position: absolute;
+    left: -9px;
+    border-left: 10px solid transparent;
+}
+.ribbon:before {
+    top: 0;
+}
+.ribbon:after {
+    bottom: 0;
+}
+.ribbon.base:before {
+    border-top: 27px solid #3498db;
+}
+.ribbon.base:after {
+    border-bottom: 27px solid #3498db;
+}
+.ribbon.light:before {
+    border-top: 27px solid #ecf0f1;
+}
+.ribbon.light:after {
+    border-bottom: 27px solid #ecf0f1;
+}
+.ribbon.dark:before {
+    border-top: 27px solid #131313;
+}
+.ribbon.dark:after {
+    border-bottom: 27px solid #131313;
+}
+.ribbon.base-alt:before {
+    border-top: 27px solid #9cd70e;
+}
+.ribbon.base-alt:after {
+    border-bottom: 27px solid #9cd70e;
+}
+.ribbon.red:before {
+    border-top: 27px solid #e91b23;
+}
+.ribbon.red:after {
+    border-bottom: 27px solid #e91b23;
+}
+.ribbon.orange:before {
+    border-top: 27px solid #ff8a3c;
+}
+.ribbon.orange:after {
+    border-bottom: 27px solid #ff8a3c;
+}
+.ribbon.yellow:before {
+    border-top: 27px solid #ffd800;
+}
+.ribbon.yellow:after {
+    border-bottom: 27px solid #ffd800;
+}
+.ribbon span {
+    display: block;
+    font-size: 16px;
+    font-weight: 600;
+}

@@ -1,0 +1,32 @@
+{
+  "name": "node-express-angular",
+  "description": "sample application using node,express and angular",
+  "main": "index.js",
+  "authors": [
+    "Padamara Nagendra"
+  ],
+  "license": "ISC",
+  "keywords": [
+    "angular",
+    "express",
+    "node"
+  ],
+  "homepage": "https://github.com/nagendramca2011/node-express-angular",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap": "3.3.6",
+    "angular": "^1.3.0",
+    "angular-route": "^1.3.0",
+    "font-awesome": "^4.6.3",
+     "angular-pdf": "^1.3.0"
+  },
+  "resolutions": {
+    "angular": "^1.3.0"
+  }
+}
