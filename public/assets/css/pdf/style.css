@@ -1,5 +1,5 @@
 *{box-sizing:border-box;}
-.wrapper {margin: 1px auto; width: 850px; }
+.wrapper {margin: 1px auto; width: 100%; }
 .pdf-controls { width: 100%; display: block; background: #eee; padding: 1em;}
 .rotate0 {-webkit-transform: rotate(0deg); transform: rotate(0deg); width: 850px; }
 .rotate90 {-webkit-transform: rotate(90deg); transform: rotate(90deg); }

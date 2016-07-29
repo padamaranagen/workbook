@@ -19,14 +19,9 @@
         </div>
     </div>
     <div class="row">
-        <div class="col-lg-3">
+        <div class="col-lg-2">
             <input typeof="text" class="form-control" placeholder="search" ng-model="globalSearch.$">
-            <table class="table table-condensed">
-                <thead>
-                    <tr>
-                        <th>Title</th>
-                    </tr>
-                </thead>
+            <table class="table table-condensed">                
                 <tbody>
                     <tr ng-repeat="qlikdata in data | filter:globalSearch">
                         <td><button type="button" class="btn btn-success" ng-click="openDocument(qlikdata.url)">{{qlikdata.title}}</button></td>
@@ -34,7 +29,7 @@
                 </tbody>
             </table>
         </div>
-        <div class="col-lg-3">
+        <div class="col-lg-10">
             <div class="wrapper">
                 <!--<h1>{{pdfName}}</h1>-->
                 <ng-pdf template-url="app/qlik-sense/viewer.html" canvasid="pdf" scale="page-fit" page=1></ng-pdf>

@@ -1,6 +1,6 @@
 
 (function () {
-    var app = angular.module('wowApp', ['ngRoute', 'QlikSense']);
+    var app = angular.module('wowApp', ['ngRoute', 'Home','QlikSense']);
 
 /**
  * Configure the Routes
@@ -9,11 +9,20 @@ app.config(['$routeProvider', function ($routeProvider) {
   $routeProvider
     //------------------ Home
     .when("/", {
-        templateUrl: "app/qlik-sense/qlik-sense.html"
+        templateUrl: "app/home/home.html"
     })
     .when("/index", {
-        templateUrl: "app/qlik-sense/qlik-sense.html"
+        templateUrl: "app/home/home.html"
     })  
+    .when("/qlik-sense", {
+        templateUrl: "app/qlik-sense/qlik-sense.html"
+    })
+    .when("/java", {
+        templateUrl: "app/qlik-sense/qlik-sense.html"
+    })
+    .when("/csharp", {
+        templateUrl: "app/qlik-sense/qlik-sense.html"
+    })
 
 
 
