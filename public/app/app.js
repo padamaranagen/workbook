@@ -17,14 +17,45 @@ app.config(['$routeProvider', function ($routeProvider) {
     .when("/qlik-sense", {
         templateUrl: "app/qlik-sense/qlik-sense.html"
     })
-    .when("/java", {
+    .when("/angularjs", {
+        templateUrl: "app/angularjs/angularjs.html"
+    })
+    .when("/backbonejs", {
+        templateUrl: "app/qlik-sense/qlik-sense.html"
+    })
+    .when("/bower", {
         templateUrl: "app/qlik-sense/qlik-sense.html"
     })
     .when("/csharp", {
         templateUrl: "app/qlik-sense/qlik-sense.html"
     })
-
-
+    .when("/dotnet", {
+        templateUrl: "app/qlik-sense/qlik-sense.html"
+    })
+    .when("/git", {
+        templateUrl: "app/qlik-sense/qlik-sense.html"
+    })
+    .when("/grunt", {
+        templateUrl: "app/qlik-sense/qlik-sense.html"
+    })
+    .when("/heroku", {
+        templateUrl: "app/qlik-sense/qlik-sense.html"
+    })
+    .when("/java", {
+        templateUrl: "app/qlik-sense/qlik-sense.html"
+    })
+    .when("/mongodb", {
+        templateUrl: "app/qlik-sense/qlik-sense.html"
+    })
+    .when("/mysql", {
+        templateUrl: "app/qlik-sense/qlik-sense.html"
+    })
+    .when("/nodejs", {
+        templateUrl: "app/qlik-sense/qlik-sense.html"
+    })
+    .when("/oracle", {
+        templateUrl: "app/qlik-sense/qlik-sense.html"
+    })
 
 
 

@@ -7,7 +7,7 @@ app.controller('QlikSenseController', ['$scope', '$http', function ($scope, $htt
         $scope.data = response.qliksense;
     });
     $scope.openDocument = function (file) {
-        console.log(file);
+        //console.log(file);
         //$scope.pdfName = 'Relativity: The Special and General Theory by Albert Einstein';
         $scope.pdfUrl = file;
         $scope.scroll = 0;

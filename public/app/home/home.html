@@ -1,13 +1,13 @@
-﻿<div class="container-fluid" >
+﻿<div class="container" >
     <div class="row" ng-controller="HomeController">
         <div class="col-md-4" ng-repeat="data in records">
             <panel panel-class="panel-midnightblue" heading="{{data.title}}">
                 <p style="text-align: justify;height: 180px;overflow-y: hidden;">
-                    <a href="#/qlik-sense"><i class="{{data.class}}"></i></a>
+                    <a href="{{data.route}}"><i class="{{data.class}}"></i></a>
                     <span>{{data.description | limitTo: 350}}</span>
                 </p>
                 <p>
-                    <a ng-click="linkClicked(p.policyId)">Read More..</a>
+                    <a href="{{data.route}}">Read More..</a>
                 </p>
             </panel>
         </div>
