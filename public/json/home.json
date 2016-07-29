@@ -2,59 +2,102 @@
 	"home":[
 	{
 		"id":"1",
-		"title":"qliksense",
-		"route":"#/qlik-sense",	
-		"description":"",	
-		"image":"http://placehold.it/300x300"					
+		"title":"angularjs",
+		"route":"#/angularjs",	
+		"description":"AngularJS is a structural framework for dynamic web apps. It lets you use HTML as your template language and lets you extend HTML's syntax to express your application's components clearly and succinctly. Angular's data binding and dependency injection eliminate much of the code you would otherwise have to write.",	
+		"class":"devicon-angularjs-plain colored  fa-5x"					
+	},
+	{
+		"id":"1",
+		"title":"apache",
+		"route":"#/apache",	
+		"description":"Apache is the most widely used web server software. Developed and maintained by Apache Software Foundation, Apache is an open source software available for free. It runs on 67% of all webservers in the world. It is fast, reliable, and secure. It can be highly customized to meet the needs of many different environments by using extensions and modules. Most WordPress hosting providers use Apache as their web server software. However, WordPress can run on other web server software as well.",	
+		"class":"devicon-apache-plain colored  fa-5x"					
+	},
+	{
+		"id":"1",
+		"title":"backbonejs",
+		"route":"#/backbonejs",	
+		"description":"Backbone.js is a JavaScript library with a RESTful JSON interface and is based on the model-view-presenter (MVP) application design paradigm. Backbone is known for being lightweight, as its only hard dependency is on one JavaScript library, Underscore.js, plus jQuery for use of the full library.",	
+		"class":"devicon-backbonejs-plain colored  fa-5x"					
+	},
+	{
+		"id":"1",
+		"title":"bower",
+		"route":"#/bower",	
+		"description":"Bower is just a package manager. The important thing to note here is that Bower is just a package manager, and nothing else. It doesn't offer the ability to concatenate or minify code, it doesn't support a module system like AMD: it's sole purpose is to manage packages.",	
+		"class":"devicon-bower-plain colored  fa-5x"					
+	},
+	{
+		"id":"1",
+		"title":"csharp",
+		"route":"#/csharp",	
+		"description":"C# (pronounced C-sharp) is an object-oriented programming language from Microsoft that aims to combine the computing power of C++ with the programming ease of Visual Basic. C# is based on C++ and contains features similar to those of Java. C# is designed to work with Microsoft's .Net platform.",	
+		"class":"devicon-csharp-plain colored  fa-5x"					
+	},
+	{
+		"id":"1",
+		"title":"dotnet",
+		"route":"#/dotnet",	
+		"description":".NET Framework (pronounced dot net) is a software framework developed by Microsoft that runs primarily on Microsoft Windows.",	
+		"class":"devicon-dot-net-plain colored  fa-5x"					
+	},
+	{
+		"id":"1",
+		"title":"git",
+		"route":"#/git",	
+		"description":"Git is a version control system that is used for software development and other version control tasks. As a distributed revision control system it is aimed at speed, data integrity,  and support for distributed, non-linear workflows.",	
+		"class":"devicon-git-plain colored  fa-5x"					
+	},
+	{
+		"id":"1",
+		"title":"grunt",
+		"route":"#/grunt",	
+		"description":"Grunt is a task-based command line build tool for JavaScript projects. Here's the idea: when working on a JavaScript project, there are a bunch of things you'll want to do regularly. Like what, you ask? Well, like concatenating given files, running JSHint on your code, running tests, or minifying your scripts.",	
+		"class":"devicon-grunt-plain colored  fa-5x"					
+	},
+	{
+		"id":"1",
+		"title":"heroku",
+		"route":"#/heroku",	
+		"description":"Heroku is a cloud application platform – a new way of building and deploying web apps.Our service lets app developers spend their time on their application code, not managing servers, deployment, ongoing operations, or scaling.",	
+		"class":"devicon-heroku-plain colored  fa-5x"					
 	},
 	{
 		"id":"1",
 		"title":"java",
 		"route":"#/java",	
-		"description":"",	
-		"image":"http://placehold.it/300x300"					
+		"description":"Java is a general-purpose computer programming language that is concurrent, class-based, object-oriented, and specifically designed to have as few implementation dependencies as possible. It is intended to let application developers write once, run anywhere (WORA), meaning that compiled Java code can run on all platforms that support Java without the need for recompilation.",	
+		"class":"devicon-java-plain colored  fa-5x"					
 	},
 	{
 		"id":"1",
-		"title":"hive",
-		"route":"#/hive",	
-		"description":"",	
-		"image":"http://placehold.it/300x300"					
+		"title":"mongodb",
+		"route":"#/mongodb",	
+		"description":"MongoDB is an open source, document-oriented database designed with both scalability and developer agility in mind. Instead of storing your data in tables and rows as you would with a relational database, in MongoDB you store JSON-like documents with dynamic schemas.",	
+		"class":"devicon-mongodb-plain colored  fa-5x"					
 	},
 	{
 		"id":"1",
-		"title":"c#",
-		"route":"#/csharp",	
-		"description":"",	
-		"image":"http://placehold.it/300x300"					
+		"title":"mysql",
+		"route":"#/mysql",	
+		"description":"MySQL, the most popular Open Source SQL database management system, is developed, distributed, and supported by Oracle Corporation. ",	
+		"class":"devicon-mysql-plain colored  fa-5x"					
 	},
 	{
 		"id":"1",
-		"title":"pig",
-		"route":"#/pig",	
-		"description":"",	
-		"image":"http://placehold.it/300x300"					
+		"title":"nodejs",
+		"route":"#/nodejs",	
+		"description":"nodejs.org. In software development, Node.js is an open-source, cross-platform runtime environment for developing server-side Web applications. Although Node.js is not a JavaScript framework, many of its basic modules are written in JavaScript, and developers can write new modules in JavaScript.",	
+		"class":"devicon-nodejs-plain colored  fa-5x"					
 	},
 	{
 		"id":"1",
-		"title":"sqoop",
-		"route":"#/sqoop",	
-		"description":"",	
-		"image":"http://placehold.it/300x300"					
-	},
-	{
-		"id":"1",
-		"title":"hadoop",
-		"route":"#/hadoop",	
-		"description":"",	
-		"image":"http://placehold.it/300x300"					
-	},
-	{
-		"id":"1",
-		"title":"hadoop",
-		"route":"#/hadoop",	
-		"description":"",	
-		"image":"http://placehold.it/300x300"					
+		"title":"oracle",
+		"route":"#/oracle",	
+		"description":"Oracle Database (commonly referred to as Oracle RDBMS or simply as Oracle) is an object-relational database management system produced and marketed by Oracle Corporation.",	
+		"class":"devicon-oracle-plain colored  fa-5x"					
 	}
+
 	]
 }

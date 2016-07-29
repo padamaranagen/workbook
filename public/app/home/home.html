@@ -1,3 +1,49 @@
 ﻿<div class="container-fluid" >
+    <div class="row" ng-controller="HomeController">
+        <div class="col-md-4" ng-repeat="data in records">
+            <panel panel-class="panel-midnightblue" heading="{{data.title}}">
+                <p style="text-align: justify;height: 180px;overflow-y: hidden;">
+                    <a href="#/qlik-sense"><i class="{{data.class}}"></i></a>
+                    <span>{{data.description | limitTo: 350}}</span>
+                </p>
+                <p>
+                    <a ng-click="linkClicked(p.policyId)">Read More..</a>
+                </p>
+            </panel>
+        </div>
+    </div>
+    
    
+    <!--
+    <div class="col-lg-3"><i class="devicon-angularjs-plain colored  fa-5x"></i></div>
+    <div class="col-lg-3"><i class="devicon-apache-plain colored fa-5x"></i></div>
+    <div class="col-lg-3"><i class="devicon-backbonejs-plain colored fa-5x"></i></div>
+    <div class="col-lg-3"><i class="devicon-bower-plain colored fa-5x"></i></div>
+    <i class="devicon-csharp-plain colored fa-5x"></i>
+    <i class="devicon-dot-net-plain colored fa-5x"></i>
+    <i class="devicon-git-plain colored fa-5x"></i>
+    <i class="devicon-grunt-plain colored fa-5x"></i>
+    <i class="devicon-heroku-original colored fa-5x"></i>
+    <i class="devicon-java-plain colored fa-5x"></i>
+    <i class="devicon-mongodb-plain colored fa-5x"></i>
+    <i class="devicon-mysql-plain colored fa-5x"></i>
+    <i class="devicon-nodejs-plain colored fa-5x"></i>
+    <i class="devicon-oracle-original colored fa-5x"></i>
+        -->
 </div>
+
+
+
+<!--
+    <div class="col-md-4" ng-repeat="p in policies">
+              <panel panel-class="panel-midnightblue" heading="{{p.policyTitle | maxlengthfilter : 30}}" >              
+                <p style="text-align: justify;height: 180px;overflow-y: hidden;"> <img ng-src="{{p.imageUrl}}" class="img-rounded ng-scope" alt="BusinessKaro" style="margin: 0px 5px 10px;float: left;" width="120" height="120">
+                <span>{{p.policyDesc | maxlengthfilter : 250}}</span>
+                </p>
+                <p>
+                    <a ng-click="linkClicked(p.policyId)">Read More..</a> 
+                  <!-- <button class="btn btn-primary btn-sm mr10" ng-click="linkClicked(p.policyId)" style="margin-top: -5px;">Read More...</button>             
+                </p>
+              </panel>
+          </div>				
+-->
